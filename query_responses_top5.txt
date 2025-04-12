@@ -1,0 +1,54 @@
+Query: reverse a linked list
+
+Function 1:
+def parse_name_and_version(p):
+    """
+    A utility method used to get name and version from a string.
+
+    From e.g. a Provides-Dist value.
+
+    :param p: A value in a form 'foo (1.0)'
+    :return: The name and version as a tuple.
+    """
+    m = NAME_VERSION_RE.match(p)
+    if not m:
+        rais
+
+Function 2:
+     if m:
+            n = m.end()
+            result = filename[:n], filename[n + 1:], pyver
+    if result is None:
+        m = PROJECT_NAME_AND_VERSION.match(filename)
+        if m:
+            result = m.group(1), m.group(3), pyver
+    return result
+
+Function 3:
+RSION_RE.match(p)
+    if not m:
+        raise DistlibException('Ill-formed name/version string: \'%s\'' % p)
+    d = m.groupdict()
+    return d['name'].strip().lower(), d['ver']
+
+Function 4:
+         os.makedirs(result)
+            usable = True
+        except OSError:
+            logger.warning('Unable to create %s', result, exc_info=True)
+            usable = False
+    if not usable:
+        result = tempfile.mkdtemp()
+        logger.warning('Default location unusable, using %s', resu
+
+Function 5:
+           tunnel_types = {
+                'local':'L',
+                'remote':'R',
+                'dynamic':'D'
+            }
+            for tunnel_type in tunnel_types:
+                cmd_type = tunnel_types[tunnel_type]
+                if tunnel_type in ssh_tunnels:
+                    tunn
+
